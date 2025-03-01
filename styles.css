@@ -62,3 +62,36 @@ button:hover {
 .headingpara {
     font-size: 40px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+nav {
+    float: right;
+}
+
+.nav-link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-link li a {
+    color: green;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.nav-link li a:hover {
+    background-color: white;
+}
